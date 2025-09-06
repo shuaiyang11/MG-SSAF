@@ -52,7 +52,7 @@ demonstrate that the MG-SSAF achieves superior performance with fewer parameters
 - Clone this repo:
 
 ```bash
-git clone https://github.com/microsoft/Swin-Transformer.git
+git clone https://github.com/shuaiyang11/MG-SSAF.git
 cd MG-SSAF
 ```
 
