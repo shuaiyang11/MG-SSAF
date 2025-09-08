@@ -169,10 +169,10 @@ python -m torch.distributed.launch --nproc_per_node 2--master_port 12345  main.p
 ## Citing MG-SSAF
 
 ```
-@inproceedings{liu2021Swin,
-  title={MG-SSAF: An advanced vision Transformer},
-  author={Shuai Yang, Chunyan Hu, Lin Xie, Feifei Lee, Qiu Chen},
-  booktitle={},
-  year={2025}
+@article{Yang2025MG-SSAF,
+  author  = {Shuai Yang, Chunyan Hu, Lin Xie, Feifei Lee, Qiu Chen},
+  title   = {MG-SSAF: An advanced vision Transformer},
+  journal = {Journal of Visual Communication and Image Representation},
+  year    = {2025}
 }
 ```
