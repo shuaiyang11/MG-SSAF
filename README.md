@@ -24,7 +24,7 @@ demonstrate that the MG-SSAF achieves superior performance with fewer parameters
 | :--- |:-----------:|:----------:|:-----:|:--------:|:-----:|:---:|:--------:|
 | MG-SSAF-T | ImageNet-1K |  224x224   | 81.9  |  19.6M   | 3.1G  | 789 | [Google](https://drive.google.com/file/d/1pqzUHH3RxBoRcWjVyM7U-E20BRZqgDcH/view?usp=sharing) |
 | MG-SSAF-S | ImageNet-1K |  224x224   | 82.7  |  32.5M   | 5.6G  | 502 | [Google](https://drive.google.com/file/d/1c1zMzzBUCgQCKDPU7TwK7N0L_kOckR4T/view?usp=sharing) |
-| MG-SSAF-B | ImageNet-1K |  224x224   | 83.2  |  55.8M   | 9.8G  | 317 |          |
+| MG-SSAF-B | ImageNet-1K |  224x224   | 83.2  |  55.8M   | 9.8G  | 317 | [Google](https://drive.google.com/file/d/1g0z2rMqnwfgJt2PnfiyhytMRTe3eWr_Z/view?usp=sharing) |
 
 
 **ADE20K Semantic Segmentation (val)**
