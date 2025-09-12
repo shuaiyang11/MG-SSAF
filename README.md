@@ -16,6 +16,13 @@ demonstrate that the MG-SSAF achieves superior performance with fewer parameters
 
 ![teaser](figures/MG-SSAF.png)
 
+## Architecture variants
+| Models |  Dim   | Blocks | Heads | Ratio  | Window Size | Pooling Kernel Size |
+| :----- |:-------:|:----------:|:-----:|:--------:|:-----:|:---:|
+| MG-SSAF-T | 96 |  [2,2,6,2]   | [3,6,12,24]  |  [0,0.5,0.5,0]   | [7,7]  | [[7,7], [H,2], [2,W]] | 
+| MG-SSAF-S | 96 |  [2,2,18,2]   | [3,6,12,24]  |  [0,0.5,0.5,0]   | [7,7]  | [[7,7], [H,2], [2,W]] | 
+| MG-SSAF-B | 128 |  [2,2,18,2]   | [4,8,16,32]  |  [0,0.75,0.75,0]   | [7,7]  | [[7,7], [H,2], [2,W]] |
+
 ## Main Results
 
 **ImageNet-1K  (val)**
