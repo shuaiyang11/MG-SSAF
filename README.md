@@ -36,20 +36,20 @@ demonstrate that the MG-SSAF achieves superior performance with fewer parameters
 
 **ADE20K Semantic Segmentation (val)**
 
-| Backbone  | Method  |  pretrain   | Crop Size | Lr Schd | mIoU | mIoU (ms+flip) | #params | FLOPs |
-|:---------:|:-------:|:-----------:|:---------:|:-------:|:----:|:--------------:|:-------:|:-----:|
-| MG-SSAF-T | UPerNet | ImageNet-1K |  512x512  |  160K   | 44.7 |      46.2      |   50M   | 947G  |
-| MG-SSAF-S | UperNet | ImageNet-1K |  512x512  |  160K   | 46.6 |      48.7      |   63M   | 1011G |
-| MG-SSAF-B | UperNet | ImageNet-1K |  512x512  |  160K   | 47.8 |      49.8      |   88M   | 1034G |
+| Backbone  | Method  |  pretrain   | Crop Size | Lr Schd | mIoU | mIoU (ms+flip) | #params | FLOPs | model |
+|:---------:|:-------:|:-----------:|:---------:|:-------:|:----:|:--------------:|:-------:|:-----:|:-----:|
+| MG-SSAF-T | UPerNet | ImageNet-1K |  512x512  |  160K   | 44.7 |      46.2      |   50M   | 947G  |[Google] (https://drive.google.com/file/d/1FK5MYWPy8nTCX9TZFc3Ew8uuFybPzq6P/view?usp=sharing)|
+| MG-SSAF-S | UperNet | ImageNet-1K |  512x512  |  160K   | 46.6 |      48.7      |   63M   | 1011G |[Google] (https://drive.google.com/file/d/1Pib7iyvd_fZYZN3P6WgGQm5QXjksygJr/view?usp=sharing)|
+| MG-SSAF-B | UperNet | ImageNet-1K |  512x512  |  160K   | 47.8 |      49.8      |   88M   | 1034G |[Google] (https://drive.google.com/file/d/1FX80fH71wQNAhWTLjrZLYP4KPeP6kw65/view?usp=sharing)|
 
 
 **CUB Fine-Grained Classification (val)**
 
-| Backbone  | #params | FLOPs |   acc@1    |
-|:---------:|:-------:|:-----:|:----------:|
-| MG-SSAF-T |  18.5M  | 12.4G |   87.49    |
-| MG-SSAF-S |  31.4M  | 22.3G |   87.42    |
-| MG-SSAF-B |  54.8M  | 39.5G |   85.11    |
+| Backbone  | #params | FLOPs |   acc@1    | model |
+|:---------:|:-------:|:-----:|:----------:|:-----:|
+| MG-SSAF-T |  18.5M  | 12.4G |   87.49    |[Google] (https://drive.google.com/file/d/1gaAFsaTEr_X3K0P0svBb4GgzV8bETiVy/view?usp=sharing)|
+| MG-SSAF-S |  31.4M  | 22.3G |   87.42    |[Google] (https://drive.google.com/file/d/13BDJW2UZ_XTnOy3UKA6H3zIjRPRtrIfM/view?usp=sharing)|
+| MG-SSAF-B |  54.8M  | 39.5G |   85.11    |[Google] (https://drive.google.com/file/d/1QFTYGiF4a1V84TLogFTFqdiMb34ahSlP/view?usp=sharing)|
 
 
 ## Getting Started
